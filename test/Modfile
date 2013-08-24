@@ -1,0 +1,13 @@
+// A sample Modfile
+// More info at https://github.com/modulejs/modjs/
+
+module.exports = {
+    plugins: {
+        "png-compressor": "../index.js"
+    },
+    tasks: {
+        "png-compressor": {
+            src: "*.png"
+        }
+    }
+};
