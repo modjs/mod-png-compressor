@@ -1,7 +1,7 @@
 {
     "name": "mod-png-compressor",
     "description": "compress png images",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/modjs/png-compressor",
     "author": {
         "name": "yuanyan",

@@ -39,11 +39,11 @@ exports.run = function (options, done) {
         var outputFile;
         if( !dest ) {
             outputFile = inputFile; 
-        }else if( file.isFile(dest) ){
-            outputFile = dest;
         }else if( file.isDirFormat(dest) ){
             var filename = path.basename(inputFile);
             outputFile = path.join(dest, filename);
+        }else{
+            outputFile = dest;
         }
         exports.pngcompressor(inputFile, outputFile, options, cb);
 
