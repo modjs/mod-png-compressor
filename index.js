@@ -65,6 +65,7 @@ exports.pngcompressor = function(inputFile, outputFile, options, done){
         }else{
             exports.log(inputFile.grey, "(saved "+ saved+ "Bytes)", ">".grey, outputFile.grey);
         }
+        done(err);
     });
 
 };
