@@ -9,10 +9,10 @@ compress png images
 ```js
 module.exports = {
     plugins: {
-        "optimage": "png-compressor"
+        pngcompress : "mod-png-compressor"
     },
     tasks: {
-        "optimage": {
+        pngcompress : {
             src: "*.png"
         }
     }
